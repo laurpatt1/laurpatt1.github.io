@@ -1,0 +1,280 @@
+@font-face {
+    font-family: "FFF";
+   
+    src: url(/assets/FFF_Regular_TRIAL.ttf) format("ttf");
+    
+}
+
+
+body {
+	max-height: 1548px;
+	display: flex;
+	flex-direction : column;
+	align-content:center;
+	background-color: white;
+	font-size:  100%; 
+	display: -webkit-box;  /* OLD - iOS 6-, Safari 3.1-6, BB7 */
+  	display: -ms-flexbox;  /* TWEENER - IE 10 */
+	display: -webkit-flex; /* NEW - Safari 6.1+. iOS 7.1+, BB10 */
+	background-image: url("assets/bg.png");
+	background-repeat: no-repeat;
+	margin: 0 auto;
+	
+  	}
+  	
+
+
+#socialnet{
+	float: right;
+	margin-top: -100px;
+	display: flex;
+	padding-right: 67px;
+}
+
+.social_li{
+	padding-left:15px;
+}
+ul{
+	list-style: none;
+	display:flex;
+	flex-direction: row;
+	align-items: center;
+	flex-wrap: wrap;
+	font-family: Helvetica;
+
+	font-color: white;
+	font-size: 18px;
+	text-decoration: none;
+
+}
+
+a{
+	text-decoration: none;
+	color: white;
+}
+a:hover{
+	color: rgb(255,53,53);
+}
+a:active{
+	color: white;
+	text-decoration: underline;
+}
+
+.lis{
+	padding: 28px;
+}
+#home_article{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+#redskins_tag{
+	color: rgb(255,53,53);
+	font-family: FFF;
+	text-transform: uppercase;
+	font-size: 1.5em;
+	margin-bottom: 0px;
+	margin-top: 0px;
+
+}
+#title{
+	font-family: FFF;
+	font-size: 3em;
+	max-width: 270px;
+	color: rgb(255,255,255);
+	margin-bottom: 10px;
+	margin-top:30px;
+}
+#home_p{
+	font-family: helvetica;
+	font-size: 18px;
+	max-width: 400px;
+	color: rgb(255,255,255);
+}
+#left{
+	padding-left: 67px;
+	display: flex;
+	flex-direction: column;
+	margin-top: -60px;
+
+}
+#right{
+	padding-right: 67px;
+}
+
+#about_left{
+	padding-left: 67px;
+	display: flex;
+	flex-direction: column;
+}
+
+#about_article{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	margin-top: 43px;
+}
+
+#about_right{
+	padding-right: 201px;
+
+}
+#h2_about{
+	font-family: FFF;
+	font-size: 3em;
+	color: rgb(0,0,0);
+	text-align: center;
+	margin-bottom: 0px;
+	border-bottom: 0px;
+}
+
+#quote{
+	font-family: FFF;
+	font-size: 1.5em;
+	text-align: center;
+	margin-top:20px;
+}
+
+#about_ul{
+	padding-top: 50px;
+	display: flex;
+	justify-content: space-around;
+	margin-right: 45px;
+}
+
+#work_titles{
+	padding-left: 67px;
+	display: flex;
+	flex-direction: column;
+	margin-top: 60px;
+
+}
+
+#work_main{
+	padding-left: 67px;
+	margin-top: 43px;
+	margin-bottom: 40px;
+}
+#work_ul{
+	padding: 0px;
+	max-width: 100%;
+	position: left;
+	max-width:1255px;
+	max-height:100%;
+	margin-top: 60px;
+	display: flex;
+	flex-direction: row;
+	flex-wrap:wrap;
+}
+
+.work_li_links,.work_li_mid{
+	border-right: 5px solid grey;
+	border-bottom: 5px solid grey;
+	max-height: 309px;
+}
+
+.work_li_rechts{
+	border-bottom: 5px solid grey;
+	max-height: 309px;
+}
+
+.onder_m, .onder_l{
+	border-right: 5px solid grey;
+	max-height: 314px;
+}
+
+#contact_right{
+	margin-right: 250px;
+	margin-top: 20px;
+}
+
+#form{
+	display: flex;
+	flex-direction: column;
+	margin-right: 40px;
+}
+
+
+input[type=text], select,textarea {
+    width: 400px;
+    font-size: 0,5em;
+    font-family: helvetica;
+    padding: 12px;
+    border: 1px solid #000;
+    border-radius: 4px; 
+    box-sizing: border-box; 
+    margin-top: 6px; 
+    margin-bottom: 16px; 
+    resize: vertical;
+    outline: none; 
+}
+
+input[type=submit] {
+    background-color: #b80000;
+    color: white;
+    font-family:FFF;
+    font-size: 1.5em;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+label{
+	font-family: FFF;
+	font-size: 1em;
+}
+#contact_left{
+	padding-left: 67px;
+	display: flex;
+	flex-direction: column;
+}
+
+#contact_article{
+	display: flex;
+	flex-direction: row;
+	align-items: bottom;
+
+	justify-content: space-between;
+	flex-wrap: wrap;
+	margin-top: 5px;
+	padding-top: 38px;
+}
+
+#contact_bot{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-top: 100px;
+	margin-bottom: 80px;
+}
+
+#title_bot{
+	font-family:FFF;
+	font-size: 3em;
+	color: black;
+	margin-right: 10px;
+	margin-bottom: 0px;
+}
+
+#beansright{
+	display: flex;
+	
+}
+#beans_left{
+	margin-left: 67px;
+	
+}
+#beans_article{
+	display: flex;
+	flex-direction: row;
+	margin-top: 43px;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	padding-bottom: 80px;
+}
+

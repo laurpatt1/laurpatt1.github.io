@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>redskins</title>
+  <link rel="stylesheet" type="text/css" href="reset.css"/>
+  <link rel="stylesheet" type="text/css" href="style.css"/>
+</head>
+<body>
+
+<header>
+    <h2 hidden>navigation</h2>
+    <nav id="nav">
+      <ul class="list">
+        <li class="lis"><a href="index.html"><img src="assets/logo_redskins.png" height="76" width="159" alt="logo"></a></li>
+        <li class="lis"><a href="index.html">Home</a></li>
+        <li class="lis"><a href="about.html">About</a></li>
+        <li class="lis"><a href="work.html">Work</a></li>
+        <li class="lis"><a href="contact.html">Contact</a></li>  
+      </ul>
+    </nav> 
+
+    <h2 hidden>social</h2>
+     <ul id="socialnet">
+      <li class="social_li"><a href="https://www.facebook.com/"><img src="assets/facebook.png" alt="facebook" height="32" width="32"></a></li>
+      <li class="social_li"><a href="https://www.twitter.com/"><img src="assets/twitter.png" alt="twitter" height="32" width="32"></a></li>
+      <li class="social_li"><a href="https://www.linkedin.com/"><img src="assets/linkedin.png" alt="linkedin" height="32" width="32"></a></li>
+      <li class="social_li"><a href="https://www.instagram.com/"><img src="assets/instagram.png" alt="instagram" height="32" width="32"></a></li>
+    </ul>
+  
+
+ </header>
+  
+
+  <main>
+  <article id="beans_article">
+  <h1 hidden> beans article</h1>
+  <section id="beans_left">
+    <h2 id="redskins_tag">redskins branding acengy</h2>
+    <h2 id="title">Beans coffee shop</h2>
+    <p id="home_p">Beans is a fun and cozy coffeeplace <br>
+      where you and your friends are welcome to relax with friends after a long day.<br>
+      Or if you could really use some time away from the citylife.
+
+</p>
+  </section>
+ 
+  <section id="beans_right">
+  <h2 hidden> beans slides</h2>
+
+  <img class="mySlides" src="assets/voorstelling_GIP.png" width="842" height="595" alt="beans">
+   <img class="mySlides" src="assets/voorstelling_GIP2.png" width="842" height="595" alt="beans">
+    <img class="mySlides" src="assets/voorstelling_GIP3.png" width="842" height="595" alt="beans">
+     <img class="mySlides" src="assets/voorstelling_GIP4.png" width="842" height="595" alt="beans">
+      <img class="mySlides" src="assets/voorstelling_GIP5.png" width="842" height="595" alt="beans">
+       <img class="mySlides" src="assets/voorstelling_GIP6.png" width="842" height="595" alt="beans">
+        <img class="mySlides" src="assets/voorstelling_GIP7.png" width="842" height="595" alt="beans">
+         <img class="mySlides" src="assets/voorstelling_GIP8.png" width="842" height="595" alt="beans">
+          <img class="mySlides" src="assets/voorstelling_GIP9.png" width="842" height="595" alt="beans">
+           <img class="mySlides" src="assets/voorstelling_GIP10.png" width="842" height="595" alt="beans">
+            <img class="mySlides" src="assets/voorstelling_GIP11.png" width="842" height="595" alt="beans">
+             <img class="mySlides" src="assets/voorstelling_GIP12.png" width="842" height="595" alt="beans">
+              <img class="mySlides" src="assets/voorstelling_GIP13.png" width="842" height="595" alt="beans">
+               <img class="mySlides" src="assets/voorstelling_GIP14.png" width="842" height="595" alt="beans">
+                <img class="mySlides" src="assets/voorstelling_GIP15.png" width="842" height="595" alt="beans">
+                 <img class="mySlides" src="assets/voorstelling_GIP16.png" width="842" height="595" alt="beans">
+                  <img class="mySlides" src="assets/voorstelling_GIP17.png" width="842" height="595" alt="beans">
+                   <img class="mySlides" src="assets/voorstelling_GIP18.png" width="842" height="595" alt="beans">
+                    <img class="mySlides" src="assets/voorstelling_GIP19.png" width="842" height="595" alt="beans">
+                     <img class="mySlides" src="assets/voorstelling_GIP20.png" width="842" height="595" alt="beans">
+                      <img class="mySlides" src="assets/voorstelling_GIP21.png" width="842" height="595" alt="beans">
+  
+
+  <script type="text/javascript">
+    var slideIndex = 0;
+carousel();
+
+function carousel() {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    for (i = 0; i < x.length; i++) {
+      x[i].style.display = "none"; 
+    }
+    slideIndex++;
+    if (slideIndex > x.length) {slideIndex = 1} 
+    x[slideIndex-1].style.display = "block"; 
+    setTimeout(carousel, 2000); // Change image every 2 seconds
+}
+  </script>
+   
+  </section>
+  </article>
+
+  </main>
+
+  <footer>
+    
+  </footer>
+</body>
+</html>

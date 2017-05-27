@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>redskins</title>
+  <link rel="stylesheet" type="text/css" href="reset.css"/>
+  <link rel="stylesheet" type="text/css" href="style.css"/>
+</head>
+<body>
+    <header>
+    <h2 hidden>navigation</h2>
+    <nav id="nav">
+      <ul class="list">
+        <li class="lis"><a href="index.html"><img src="assets/logo_redskins.png" height="76" width="159" alt="logo"></a></li>
+        <li class="lis"><a href="index.html">Home</a></li>
+        <li class="lis"><a href="about.html">About</a></li>
+        <li class="lis"><a href="work.html">Work</a></li>
+        <li class="lis"><a href="contact.html">Contact</a></li>  
+      </ul>
+    </nav> 
+
+    <h2 hidden>social</h2>
+     <ul id="socialnet">
+      <li class="social_li"><a href="https://www.facebook.com/"><img src="assets/facebook.png" alt="facebook" height="32" width="32"></a></li>
+      <li class="social_li"><a href="https://www.twitter.com/"><img src="assets/twitter.png" alt="twitter" height="32" width="32"></a></li>
+      <li class="social_li"><a href="https://www.linkedin.com/"><img src="assets/linkedin.png" alt="linkedin" height="32" width="32"></a></li>
+      <li class="social_li"><a href="https://www.instagram.com/"><img src="assets/instagram.png" alt="instagram" height="32" width="32"></a></li>
+    </ul>
+  
+
+ </header>
+  
+
+  <main>
+   <article id="contact_article">
+   <h1 hidden>contact article</h1>
+  <section id="contact_left">
+    <h2 id="redskins_tag">redskins branding acengy</h2>
+    <h2 id="title">contact us</h2>
+    <p id="home_p">
+    Adress:<br>
+    Redskins nv<br>
+    gentsehovestraat 31<br>
+    9000 Gent Belguim<br> <br>
+    Email:<br>
+    Info@Redskins.be<br><br>
+    Phone number:<br>0475633298<br><br>
+    Fax number:<br>0476339122
+
+
+    </p>
+  </section>
+
+  <section id="contact_right">
+  <h2 hidden>contact form</h2>
+    <form id="form">
+    
+    <label for="name">Name</label>
+    <input type="text" id="name" name="name" placeholder="Your name..">
+
+
+    <label for="company">company</label>
+    <input type="text" id="company" name="company" placeholder="company name..">
+
+    <label for="country">Country</label>
+    <select id="country" name="country">
+      <option value="Belguim">Belguim</option>
+      <option value="australia">Australia</option>
+      <option value="canada">Canada</option>
+      <option value="usa">USA</option>
+      <option value="germany">germany</option>
+       <option value="france">france</option>
+    </select>
+
+    <label for="subject">Subject</label>
+    <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+
+    <input type="submit" value="Submit">
+  </form>
+  </section>
+  </article>
+
+  <section id="contact_bot">
+  <h1 id="title_bot">Find us</h1>
+
+  <div id="map" style="width:500px;height:400px">
+  <script>function myMap() {
+    var mapOptions = {
+        center: new google.maps.LatLng(51.0624094,3.7257646),
+        zoom: 15,
+        mapTypeId: google.maps.MapTypeId.HYBRID
+    }
+    var map = new google.maps.Map(document.getElementById("map"), mapOptions);
+    }
+    var marker = new google.maps.Marker({
+          position: myLatLng,
+          map: map,
+          title: 'Hello World!'
+        });
+    </script>
+<script src="https://maps.googleapis.com/maps/api/js?callback=myMap"></script>
+</div> 
+  </section>
+
+
+  </main>
+
+  <footer>
+    
+  </footer>
+</body>
+</html>
