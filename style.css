@@ -278,3 +278,10 @@ label{
 	padding-bottom: 80px;
 }
 
+#map{
+	min-width: 400px;
+	min-height:300px;
+	max-width:400px;
+	max-height:300px;
+}
+
